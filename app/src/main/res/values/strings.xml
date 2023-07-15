@@ -54,9 +54,11 @@
     <string name="div8">Division 8</string>
     <string name="div9">Division 9</string>
     <string name="div10">Division 10</string>
+    <string name="enrollment_no">Enrollment No</string>
     <string name="enrollment">Enrollment</string>
     <string name="name">Name</string>
     <string name="submit">Submit</string>
+
 
 </resources>
 
