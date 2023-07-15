@@ -1,0 +1,113 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_select_division"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ai_division"
+            android:textSize="24sp"
+            android:layout_marginTop="24dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignBounds"
+            android:columnCount="2"
+            android:padding="16dp"
+            android:rowOrderPreserved="false"
+            android:useDefaultMargins="true">
+
+            <!-- Add buttons for divisions here -->
+            <Button
+                android:id="@+id/btn_div1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/div1" />
+            <Button
+                android:id="@+id/btn_div2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/div2" />
+
+            <Button
+                android:id="@+id/btn_div3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/div3" />
+
+            <Button
+                android:id="@+id/btn_div4"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/div4" />
+
+            <Button
+                android:id="@+id/btn_div5"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/div5" />
+
+            <Button
+                android:id="@+id/btn_div6"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/div6" />
+
+            <Button
+                android:id="@+id/btn_div7"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/div7" />
+
+            <Button
+                android:id="@+id/btn_div8"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/div8" />
+
+            <Button
+                android:id="@+id/btn_div9"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/div9" />
+
+            <Button
+                android:id="@+id/btn_div10"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/div10" />
+
+            <!-- ...add more buttons here, up to div10 -->
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

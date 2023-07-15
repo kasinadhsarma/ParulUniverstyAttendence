@@ -1,0 +1,210 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_select_branch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_branch"
+            android:textSize="24sp"
+            android:layout_marginTop="24dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignBounds"
+            android:columnCount="2"
+            android:padding="16dp"
+            android:rowOrderPreserved="false"
+            android:useDefaultMargins="true">
+
+            <Button
+                android:id="@+id/btn_piet"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/piet" />
+
+            <Button
+                android:id="@+id/btn_pit"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/pit" />
+
+            <Button
+                android:id="@+id/btn_ds"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/ds" />
+
+            <Button
+                android:id="@+id/btn_mech"
+                android:layout_width="151dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/mech" />
+
+            <!-- Repeat this pattern for all buttons -->
+            <Button
+                android:id="@+id/btn_Pip"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/Pip" />
+
+            <Button
+                android:id="@+id/btn_Pimsr"
+                android:layout_width="151dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/Pimsr" />
+
+            <Button
+                android:id="@+id/btn_PID"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/PID" />
+
+            <Button
+                android:id="@+id/btn_PIN"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/PIN" />
+
+            <Button
+                android:id="@+id/btn_PIAR"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/PIAR" />
+
+            <Button
+                android:id="@+id/btn_PIBA"
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/PIBA" />
+
+            <Button
+                android:id="@+id/btn_JNHMC"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/JNHMC" />
+
+            <Button
+                android:id="@+id/btn_PIHR"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/PIHR" />
+
+            <Button
+                android:id="@+id/btn_RHMC"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/RHMC" />
+
+            <Button
+                android:id="@+id/btn_AHC"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/AHC" />
+
+            <Button
+                android:id="@+id/btn_PICA"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/PICA" />
+
+            <Button
+                android:id="@+id/btn_PIAS"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/PIAS" />
+
+            <Button
+                android:id="@+id/btn_PISW"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/PISW" />
+
+            <Button
+                android:id="@+id/btn_PIASR"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/PIASR" />
+
+            <Button
+                android:id="@+id/btn_PIFA"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/PIFA" />
+
+            <Button
+                android:id="@+id/btn_PIVE"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/PIVE" />
+
+            <Button
+                android:id="@+id/btn_PILIS"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/PILIS" />
+
+            <Button
+                android:id="@+id/btn_PIC"
+                android:layout_width="154dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/PIC" />
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>

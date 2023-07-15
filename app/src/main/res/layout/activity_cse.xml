@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_select_branch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/CSE"
+            android:textSize="24sp"
+            android:layout_marginTop="24dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="851dp"
+            android:alignmentMode="alignBounds"
+            android:columnCount="2"
+            android:padding="16dp"
+            android:rowOrderPreserved="false"
+            android:useDefaultMargins="true">
+
+            <Button
+                android:id="@+id/btn_AI"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/AI"  />
+
+            <Button
+                android:id="@+id/btn_CYBERSECURITY"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/CYBERSECURITY" />
+
+            <Button
+                android:id="@+id/btn_BIGDATA"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/BIGDATA" />
+
+            <Button
+                android:id="@+id/btn_CLOUDCOMPUTING"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/CLOUDCOMPUTING" />
+
+            <Button
+                android:id="@+id/btn_IOT"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/IOT" />
+
+            <Button
+                android:id="@+id/btn_BLOCKCHAINTECHNOLOGY"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_margin="8dp"
+                android:gravity="center"
+                android:text="@string/BLOCKCHAINTECHNOLOGY" />
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
