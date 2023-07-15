@@ -1,31 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <EditText
         android:id="@+id/et_enrollment_no"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/enrollment_no"
-        android:autofillHints=""
-        android:inputType="" />
+        android:layout_width="279dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="160dp"
+        android:hint="@string/enrollment"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/et_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/et_enrollment_no"
-        android:hint="Name"
+        android:layout_width="278dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="28dp"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:autofillHints=""
-        android:inputType="" />
+        android:textColorHint="#8D6E63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_enrollment_no"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/btn_submit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Submit"
-        android:layout_below="@id/et_name"/>
-</RelativeLayout>
+        android:layout_width="254dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
