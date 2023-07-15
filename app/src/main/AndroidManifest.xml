@@ -28,5 +28,7 @@
         <activity android:name=".CSEActivity" />
         <activity android:name=".AIActivity" />
         <activity android:name=".SignupActivity" />
+        <activity android:name=".EnrollmentActivity" />
+
     </application>
 </manifest>
