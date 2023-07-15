@@ -29,6 +29,6 @@
         <activity android:name=".AIActivity" />
         <activity android:name=".SignupActivity" />
         <activity android:name=".EnrollmentActivity" />
-
+        <activity android:name=".FormActivity"/>
     </application>
 </manifest>
