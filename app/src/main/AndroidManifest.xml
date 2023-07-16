@@ -28,7 +28,8 @@
         <activity android:name=".CSEActivity" />
         <activity android:name=".AIActivity" />
         <activity android:name=".SignupActivity" />
-        <activity android:name=".EnrollmentActivity" />
         <activity android:name=".FormActivity"/>
+        <activity android:name=".UsersListActivity" />
+
     </application>
 </manifest>
